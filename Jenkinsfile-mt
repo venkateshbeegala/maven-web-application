@@ -7,6 +7,7 @@ properties([
 
 
 
+
 node('master'){  
     
     def mavenHome=tool name: "mavenv3.1.1.1", type: "maven"
